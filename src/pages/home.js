@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../components/header';
 import chillLogo from '../assets/chill.png';
+import Contact from '../components/contact';
 const HomePage = () => {
 	return (
-		<div className="w-full h-screen bg-chill-bg flex flex-col px-4 overflow-y-scroll pb-12">
+		<div className="w-full h-screen bg-chill-bg flex flex-col overflow-y-scroll pb-12 relative">
 			<Header></Header>
-			<div className="w-full flex flex-col text-center">
+			<div className="w-full flex flex-col text-center px-4">
 				<div className="mx-auto text-6xl text-sky-800 mt-20 font-semibold">
 					The San Diego Chill.
 				</div>
@@ -33,6 +34,12 @@ const HomePage = () => {
 						forever bonded and changed.
 					</div>
 				</div>
+			</div>
+			<div className="mt-12 bg-sky-600 w-full pt-2 pb-6 -mb-12 flex flex-col ">
+				<div className="w-1/2 mx-auto mb-4 text-2xl text-gray-900">
+					Get in touch.
+				</div>
+				<Contact />
 			</div>
 		</div>
 	);
