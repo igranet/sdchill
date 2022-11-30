@@ -11,7 +11,7 @@ const HomePage = () => {
 				</div>
 				<div className="mt-12">
 					<iframe
-						className="mx-auto w-1/2 h-72 rounded-md"
+						className="mx-auto md:w-1/2 w-3/4 h-72 rounded-md"
 						src="https://www.youtube.com/embed/B3VxXBVoBIU"
 						title="YouTube video player"
 						frameborder="0"
